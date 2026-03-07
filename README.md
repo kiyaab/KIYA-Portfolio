@@ -1,73 +1,93 @@
-# Welcome to your Lovable project
+Endegena Abebe (Kiya) – Full-Stack Developer & AI Innovator
 
-## Project info
+Hi there! I’m Endegena Abebe (Kiya) – a passionate Full-Stack Developer, AI enthusiast, and problem solver from Bale Robe, Ethiopia. I build innovative digital platforms, AI-powered tools, and interactive web applications that solve real-world problems, especially in education, freelancing, and digital innovation in Ethiopia.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🔹 About Me
 
-## How can I edit this code?
+🌍 Location: Bale Robe, Ethiopia
 
-There are several ways of editing your application.
+💻 Specialization: Web & Mobile Development, AI Integration, System Design
 
-**Use Lovable**
+🎯 Mission: Build technology that empowers communities and improves lives
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+⚡ Interests: Software development, AI, educational platforms, and creative problem solving
 
-Changes made via Lovable will be committed automatically to this repo.
+💻 Technical Skills
+Frontend
 
-**Use your preferred IDE**
+HTML5, CSS3, JavaScript, TypeScript, Bootstrap 5, Tailwind CSS, React.js, Next.js, Vue.js, Nuxt.js, UI/UX Design, Motion UI
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Backend
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Python, Django, Node.js, Express.js, REST APIs, Authentication, Backend Architecture
 
-Follow these steps:
+Mobile Development
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+React Native, Flutter, Progressive Web Apps (PWA)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Databases
 
-# Step 3: Install the necessary dependencies.
-npm i
+PostgreSQL, MySQL, MongoDB, Firebase
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+DevOps & Cloud
 
-**Edit a file directly in GitHub**
+Git, GitHub, GitHub Actions, Docker (basic), CI/CD Pipelines, Linux, Nginx, Vercel, Netlify
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+AI & Advanced Tech
 
-**Use GitHub Codespaces**
+AI Tool Integration, Prompt Engineering, Machine Learning Basics, Automation, Data Visualization
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Tools
 
-## What technologies are used for this project?
+VS Code, Figma, Postman, Chrome DevTools, Terminal / CLI
 
-This project is built with:
+📂 Projects
+1️⃣ ተማር ልጄ
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+AI-powered educational platform for Ethiopian students with interactive lessons and study tools.
 
-## How can I deploy this project?
+2️⃣ ግልግል HUB
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Freelance marketplace connecting Ethiopian businesses with skilled professionals.
 
-## Can I connect a custom domain to my Lovable project?
+3️⃣ ዕይታ-ET
 
-Yes, you can!
+Knowledge-sharing and innovation platform for Ethiopian digital resources.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+4️⃣ EthioTok
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Short-video social media platform inspired by modern content apps, designed for Ethiopian creators.
+
+5️⃣ Hospital Management System
+
+A complete hospital system with dashboards, patient records, and appointment management.
+
+📜 Certificates & Achievements
+
+Multiple development and AI-related certificates
+
+Creator of educational and tech platforms in Ethiopia
+
+Built systems that improve accessibility and digital solutions
+
+📫 Contact Me
+
+📧 Email: bogemamo124@gmail.com
+
+📞 Phone: 0913962738
+
+🌐 GitHub: github.com/kiyaab
+
+💬 Telegram: @melos_30k
+
+🎵 TikTok: @urfavkiya1
+
+🌟 Portfolio Features
+
+Dark, futuristic UI with glassmorphism and neon gradients
+
+Motion graphics, hover effects, and 3D interactive cards
+
+Projects, certificates, and skills displayed dynamically
+
+Fully responsive design for desktop and mobile
