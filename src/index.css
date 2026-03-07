@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@layer base {
+  :root {
+    --background: 230 25% 5%;
+    --foreground: 220 20% 92%;
+
+    --card: 230 25% 8%;
+    --card-foreground: 220 20% 92%;
+
+    --popover: 230 25% 8%;
+    --popover-foreground: 220 20% 92%;
+
+    --primary: 265 90% 65%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 200 90% 55%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 230 20% 14%;
+    --muted-foreground: 220 15% 55%;
+
+    --accent: 185 90% 50%;
+    --accent-foreground: 230 25% 5%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 230 20% 15%;
+    --input: 230 20% 15%;
+    --ring: 265 90% 65%;
+
+    --radius: 0.75rem;
+
+    --glow-purple: 265 90% 65%;
+    --glow-blue: 200 90% 55%;
+    --glow-cyan: 185 90% 50%;
+
+    --sidebar-background: 230 25% 5%;
+    --sidebar-foreground: 220 20% 92%;
+    --sidebar-primary: 265 90% 65%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 230 20% 14%;
+    --sidebar-accent-foreground: 220 20% 92%;
+    --sidebar-border: 230 20% 15%;
+    --sidebar-ring: 265 90% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  ::selection {
+    background: hsl(265 90% 65% / 0.3);
+    color: hsl(0 0% 100%);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsl(230 25% 5%);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(265 90% 65% / 0.4);
+    border-radius: 3px;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-card/40 backdrop-blur-xl border border-border/50;
+  }
+
+  .glass-strong {
+    @apply bg-card/60 backdrop-blur-2xl border border-border/60;
+  }
+
+  .glow-purple {
+    box-shadow: 0 0 20px hsl(265 90% 65% / 0.3), 0 0 60px hsl(265 90% 65% / 0.1);
+  }
+
+  .glow-blue {
+    box-shadow: 0 0 20px hsl(200 90% 55% / 0.3), 0 0 60px hsl(200 90% 55% / 0.1);
+  }
+
+  .glow-cyan {
+    box-shadow: 0 0 20px hsl(185 90% 50% / 0.3), 0 0 60px hsl(185 90% 50% / 0.1);
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(265 90% 65%), hsl(200 90% 55%), hsl(185 90% 50%));
+  }
+
+  .gradient-border {
+    position: relative;
+  }
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, hsl(265 90% 65% / 0.5), hsl(200 90% 55% / 0.5), hsl(185 90% 50% / 0.5));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .text-glow-purple {
+    text-shadow: 0 0 10px hsl(265 90% 65% / 0.5), 0 0 30px hsl(265 90% 65% / 0.2);
+  }
+
+  .text-glow-cyan {
+    text-shadow: 0 0 10px hsl(185 90% 50% / 0.5), 0 0 30px hsl(185 90% 50% / 0.2);
+  }
+}
