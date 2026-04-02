@@ -34,10 +34,10 @@ const projects = [
   {
     title: "ፍትህ AI",
     desc: "Ethiopian legal AI assistant for searching laws, getting legal advice, and document analysis.",
-    image: fithiai,
+    image: fithiai
     tech: ["React", "Django", "NLP", "AI"],
     github: "https://github.com/kiyaab",
-    live: "#",
+    live: "https://feteheaiforethiopians.vercel.app/chat",
   },
   {
     title: "Hospital Management System",
